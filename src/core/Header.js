@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Button from "../components/Button";
+import Button from "./Button";
 {
   /*
 const Header = (props) => {
@@ -11,15 +11,15 @@ const Header = (props) => {
 };
 */
 }
-const Header = ({ title }) => {
-  const onClick = () => {
-    console.log("clicked");
-    //console.log(e);
-  };
+const Header = ({ title, show, isShown }) => {
   return (
     <header className="header">
       <h1>{title}</h1>
-      <Button color={"green"} text={"Add"} onClick={onClick} />
+      <Button
+        color={isShown ? "red" : "green"}
+        text={isShown ? "Close" : "Add"}
+        onClick={show}
+      />
     </header>
   );
 };

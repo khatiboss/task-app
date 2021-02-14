@@ -1,12 +1,9 @@
-import Header from "./components/Header";
-import Tasks from "./components/Tasks";
+import Routes from "./Routes";
+
 function App() {
-  const x = false;
   return (
-    <div className="container">
-      <Header title={'Task Application - ReactJS'} />
-      <Tasks />
-      {x ? "YES" : "NO"}
+    <div>
+      <Routes />
     </div>
   );
 }

@@ -1,7 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
 const Button = ({ text, color, onClick }) => {
-  
   return (
     <button
       style={{ backgroundColor: color }}

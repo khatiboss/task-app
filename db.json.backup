@@ -1,0 +1,29 @@
+{
+  "tasks": [
+
+    {
+      "id": 1,
+      "text": "ReactJS",
+      "reminder": true,
+      "day": "Lun"
+    },
+    {
+      "id": 2,
+      "text": "VueJS",
+      "reminder": false,
+      "day": "Mar"
+    },
+    {
+      "id": 3,
+      "text": "Angular",
+      "reminder": false,
+      "day": "Ven"
+    },
+    {
+      "id": 4,
+      "text": "Laravel",
+      "reminder": true,
+      "day": "Gio"
+    }
+  ]
+}
